@@ -1,7 +1,7 @@
 # rnekod
 A cli catgirl random picture crawler for arch linux
 
-**R**andom **neok** **d**ownloader
+**R**andom **neko** **d**ownloader
 
 rnekod is a lightweight command-line tool that fetches random catgirl (anime-style cat girl) images from NekosAPI v4 and displays them directly in your default image viewer, browser, or saves them to disk.
 
