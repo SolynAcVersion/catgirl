@@ -1,5 +1,5 @@
-# Maintainer: SolynAcVersion
-# Contributor: SolynAcVersion & Claude Code
+# Maintainer: yLDeveloper <yLDeveloper at outlook dot com>
+# Contributor: yLDeveloper & Claude Code
 
 pkgname=rnekod
 pkgver=0.74
@@ -15,8 +15,8 @@ depends=(
   'python-colorama'
 )
 makedepends=()
-source=("catgirl.py")
-sha256sums=('b75f085986c8b05b091dbb698968b4e6f10b9d4f77da0a91eea222929edfdba8')
+source=("https://raw.githubusercontent.com/SolynAcVersion/catgirl/main/catgirl.py")
+sha256sums=('SKIP')
 
 package() {
   install -Dm755 "$srcdir/catgirl.py" "$pkgdir/usr/bin/rnekod"
