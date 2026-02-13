@@ -48,10 +48,15 @@ rnekod [-h] [-br] [-dp DOWNLOAD_PATH] [-r RATING] [-v]
 #### Args
 
 -h	--help	Show help message and exit.
+
 -br	--browser	Open the fetched image in your default web browser instead of displaying it with the system image viewer.
+
 -dp	--download-path	Download the image to the specified directory. The directory must exist. The file will be named nekoget_<image_id>.png.
+
 -r	--rating	Filter images by rating(s). Provide a comma-separated list of ratings. Allowed values: safe, suggestive, borderline, explicit. You can also use aliases (see below). Default: safe,suggestive.
+
 -v	--version	Show the program version and exit.
+
 
 #### Few shortcuts for rating
 
